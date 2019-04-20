@@ -1,3 +1,8 @@
+import eat from './components/eat/eat';
 import '../styles/main.scss';
 
-console.error('setup is working');
+const init = () => {
+  eat.printEat();
+};
+
+init();

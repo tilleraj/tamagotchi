@@ -1,3 +1,43 @@
 body {
   background-color: lightskyblue;
 }
+
+#app {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  width: 650px;
+  height: 650px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.quad {
+  width: 48%;
+  height: 48%;
+  margin: 1%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sleep {
+  background-color: darkblue;
+}
+
+#play {
+  background-color: darkorange;
+}
+
+#fight {
+  background-color: darkred;
+}
